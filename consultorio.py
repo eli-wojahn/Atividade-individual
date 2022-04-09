@@ -70,6 +70,6 @@ def resumo(): #8
 
     i_menor = valores.index(menor)
     i_maior = valores.index(maior)
-    print(f'Menor R$: {menor:9.2f} - Paciente:{atendido[i_menor]}')
+    print(f'Menor R$: {menor:9.2f} - Paciente:{atendidos[i_menor]}')
     print(f'Maior R$: {maior:9.2f} - Paciente: {atendidos[i_maior]}')
 
