@@ -73,3 +73,42 @@ def resumo(): #8
     print(f'Menor R$: {menor:9.2f} - Paciente:{atendidos[i_menor]}')
     print(f'Maior R$: {maior:9.2f} - Paciente: {atendidos[i_maior]}')
 
+while True:
+    titulo("Consultório Odontológico", "=")
+    print("1. Incluir Paciente")
+    print("2. Listar Pacientes")
+    print("3. Atender")
+    print("4. Urgência")
+    print("5. Informar Valor")
+    print("6. Listar atendimentos")
+    print("7. Totalizar Valores")           
+    print("8. Resumo")
+    print("9. Encerrar")
+
+    opcao = int(input("Opção: "))
+    if opcao == 1:
+        incluir()
+
+    elif opcao == 2:
+        listar()
+
+    elif opcao == 3:
+        atender()
+
+    elif opcao == 4:
+        urgencia()
+
+    elif opcao == 5:
+        valor()
+
+    elif opcao == 6:
+        atendimentos()
+
+    elif opcao == 7:
+        totalizar()
+    
+    elif opcao == 8:
+        resumo()
+
+    else:
+        break
